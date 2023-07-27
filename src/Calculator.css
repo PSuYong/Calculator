@@ -1,0 +1,89 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size : 40px;
+}
+body {
+  background:rgb(172, 181, 186);
+  text-align: center;
+  font-family: cursive;
+}
+.box1{
+  border-style:solid;
+  width:800px;
+  margin:50px auto;
+  background:rgb(32, 18, 225);
+  background:linear-gradient(to right bottom,blue,red);
+  padding : 20px;
+  border-radius : 20px;
+}
+button{
+  width :120px;
+  height: 120px;
+  font-size: 40px;
+  margin : 5px;
+  border-radius : 10px;
+}
+#button1{
+  width :100px;
+  height: 120px;
+  font-size: 30px;
+  margin : 5px;
+  border-radius : 10px;
+}
+.hex-button{
+  width :80px;
+  height: 80px;
+  font-size: 30px;
+  margin : 5px;
+  border-radius : 10px;
+}
+button.decActive {
+  background-color: red;
+  color: white;
+}
+button.hexActive {
+  background-color: red;
+  color: white;
+}
+#button3{
+  width :200px;
+  height: 80px;
+  font-size: 30px;
+  margin : 5px;
+  border-radius : 10px;
+}
+#result{
+  width :500px;
+  height: 120px;
+  font-size: 50px;
+  font-weight: 100;
+  background:rgb(172, 181, 186);
+  font-display: black;
+}
+
+/* #container {
+  width:320px;        
+  margin:50px auto;
+}
+.card {
+  position:relative;    
+  width:300px;
+  height:500px;
+  margin:20px 10px;
+  border:1px solid #0f0f0f33;
+  background-color:#ffffff;      
+}
+.words {
+  position:absolute;    
+  left:10px;
+  top:300px;
+  padding:10px;
+  text-align:center;   
+} */
+
+
+

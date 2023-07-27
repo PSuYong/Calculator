@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <br>
+    <div class="box1">
+      <input type="text" id="result" disabled>
+      <button onclick="clearDisplay()" id="button1">C</button>
+      <br>
+      <button onclick="settingType('DEC')" class="focusbutton" id="button3">DEC</button>
+      <button onclick="settingType('HEX')" class="focusbutton" id="button3">HEX</button>
+      <button onclick="removeToDisplay()" id= "button3"><img src="Back.png" style="width: 80px; height: 30px;"></button>
+      <br>
+      <button onclick="appendToDisplay('a')"  class="hex-button" id="button-a">A</button>
+      <button onclick="appendToDisplay('b')"  class="hex-button" id="button-b">B</button>
+      <button onclick="appendToDisplay('c')"  class="hex-button" id="button-c">C</button>
+      <button onclick="appendToDisplay('d')"  class="hex-button" id="button-d">D</button>
+      <button onclick="appendToDisplay('e')"  class="hex-button" id="button-e">E</button>
+      <button onclick="appendToDisplay('f')"  class="hex-button" id="button-f">F</button>
+      <br>
+      <button onclick="appendToDisplay(7)">7</button>
+      <button onclick="appendToDisplay(8)">8</button>
+      <button onclick="appendToDisplay(9)">9</button>
+      <button onclick="appendToDisplay('/')">/</button>
+      <br>
+      <button onclick="appendToDisplay(4)">4</button>
+      <button onclick="appendToDisplay(5)">5</button>
+      <button onclick="appendToDisplay(6)">6</button>
+      <button onclick="appendToDisplay('*')">X</button>
+      <br>
+      <button onclick="appendToDisplay(1)">1</button>
+      <button onclick="appendToDisplay(2)">2</button>
+      <button onclick="appendToDisplay(3)">3</button>
+      <button onclick="appendToDisplay('-')">-</button>
+      <br>
+      <button onclick="appendToDisplay(0)">0</button>
+      <button onclick="appendToDisplay('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToDisplay('+')">+</button>
+      <script src="Calculator.js"></script>
+    </div>
+</body>
+</html>
